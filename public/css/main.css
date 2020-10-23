@@ -1,0 +1,273 @@
+/* All texts */
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.pagination {
+  position: relative;
+}
+
+.pagination a {
+  color: #24344b !important;
+}
+
+label {
+  font-weight: bold;
+}
+
+.lead {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.general-text-color {
+  color: #24344b !important;
+}
+
+.general-bg-color {
+  background-color: #24344b !important;
+}
+
+.general-bg {
+  background-color: #24344b !important;
+  color: white !important;
+  transition: all 0.5s;
+}
+
+.general-bg:hover {
+  color: #24344b !important;
+  background-color: white !important;
+  font-weight: bold;
+  border: 2px solid #24344b !important;
+}
+
+.navbar {
+  background-color: #24344b !important;
+  /* darker color */
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #24344b;
+}
+
+.right-sidebar,
+.left-sidebar,
+.footer,
+.welcome-page a {
+  background-color: #24344b;
+  /* lighter color */
+}
+
+.welcome-page a {
+  text-decoration: none;
+  border: 0 !important;
+}
+
+.welcome-page a:hover {
+  color: #24344b !important;
+  background-color: white;
+  border: 1px solid #24344b !important;
+  font-weight: bold;
+}
+
+.right-sidebar p {
+  font-size: 12px;
+  color: white;
+  border: 1px solid lavender;
+  margin: 0;
+  cursor: pointer;
+}
+
+.menu-list {
+  background-color: #24344b;
+}
+
+.menu-name {
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.menu-name:hover,
+.right-sidebar p:hover {
+  background-color: #24344b;
+}
+
+.accordion a {
+  text-decoration: none !important;
+}
+
+.accordion a,
+.label,
+.link {
+  font-family: "Zilla Slab", serif;
+  color: white !important;
+}
+
+.lead p {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+#home,
+#about,
+#services,
+#contact {
+  cursor: pointer;
+}
+
+td {
+  cursor: pointer;
+}
+
+/* Hide all of these on page load */
+
+/* .members-div, .services-div, .servicespage-div, .aboutpage-div, .contactpage-div, .logo-div, .contact-div{
+    display: none;
+} */
+
+/* links in form of li elements */
+
+.link,
+.link2,
+.link3 {
+  cursor: pointer;
+}
+
+/* Site Pages Section */
+
+.page-tabs {
+  text-align: center;
+}
+
+.page-tabs .row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.page-tabs p {
+  background-color: #24344b;
+  text-align: center !important;
+  color: white;
+}
+
+.page-tabs p:hover {
+  background-color: lavender;
+}
+
+.page-tabs p:hover a {
+  color: #24344b !important;
+  font-weight: bold;
+}
+
+.colorless,
+.active {
+  background-color: lavender !important;
+}
+
+.colorless a,
+.active a {
+  color: #24344b !important;
+  font-weight: bold;
+}
+
+.edit {
+  display: none;
+}
+
+.page-section,
+.page-top-content,
+.page-meta-content,
+.core-value-content {
+  position: relative;
+  cursor: pointer;
+}
+
+.page-section .line,
+.page-top-content .line,
+.page-meta-content .line,
+.core-value-content .line {
+  height: 2px;
+  background-color: white;
+}
+
+.page-section:hover .edit,
+.page-top-content:hover .edit,
+.page-meta-content:hover .edit,
+.core-value-content:hover .edit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2em;
+  display: block;
+  background-color: #24344b;
+}
+
+/* Logo section */
+
+.logo-image,
+.service-icon,
+.portfolio-icon {
+  width: 6em;
+  height: 3em;
+}
+
+.new-logo-form {
+  background-color: lavender;
+  padding: 2em;
+}
+
+/* delete spans */
+
+#delete-address,
+#delete-email,
+#delete-phone {
+  float: right;
+  color: red;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.modal-header h3 {
+  width: 100%;
+}
+
+.delete {
+  background: none;
+  border: 0;
+}
+
+/* Team section */
+
+.member-image {
+  width: 6em;
+  height: 3em;
+}
+
+.floating-button {
+  display: grid;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  align-items: center;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 30px;
+  right: 85px;
+  z-index: 9;
+}
+
+@media only screen and (max-width: 765px) {
+  .floating-button {
+    right: 10px;
+    bottom: 20px;
+  }
+}
+
