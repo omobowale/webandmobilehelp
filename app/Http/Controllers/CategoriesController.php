@@ -78,6 +78,9 @@ class CategoriesController extends Controller
         //get the category to be deleted using its id
         $category = Category::find($id);
 
+        //delete all portfolios under this category
+        
+
         //delete the category
         $category->delete();
 

@@ -39,13 +39,6 @@ class APICommentController extends Controller
      */
     public function store(Request $request)
     {
-        // if($request->has('admin') && $request['admin'] == 'admin' && Auth::user()){
-            // $validated = $request->validate([
-            //     'comment' => 'required|string',
-            //     'blog_id' => 'required|numeric',
-            //     'name' => 'required|string|regex:[A-Za-z1-9]',
-            //     'email' => 'required|email'
-            // ]);
 
             $validated = Validator::make($request->all(), [
                 'comment' => 'required|string',
